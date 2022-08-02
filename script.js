@@ -1,32 +1,53 @@
 "use strict";
 
+// function first() {
+//     // Do something
+//     setTimeout(function() {
+//         console.log(1);
+//     }, 500);
+// }
 
+// function second() {
+//     console.log(2);
+// }
+
+// first();
+// second();
+
+// function learnJS(lang, callback) {
+//     console.log(`Я учу: ${lang}`);
+//     callback();
+// }
+
+// learnJS('JavaScript', function() {
+//     console.log(`Я прошел этот урок`);
+// });
 
 // пробел
 
-function fib(n) {
-  if (
-    typeof n !== "number" ||
-    n === "" ||
-    n === null ||
-    n <= 0 ||
-    !Number.isInteger(n)
-  )
-    return alert("");
+// function fib(n) {
+//   if (
+//     typeof n !== "number" ||
+//     n === "" ||
+//     n === null ||
+//     n <= 0 ||
+//     !Number.isInteger(n)
+//   )
+//     return alert("");
 
-  let a = 0,
-    b = 1,
-    c,
-    result = "";
-  for (let i = 1; i <= n; i++) {
+//   let a = 0,
+//     b = 1,
+//     c,
+//     result = "";
+//   for (let i = 1; i <= n; i++) {
     
-    result = result + ` ${a}`;
-    c = a + b;
-    a = b;
-    b = c;
-  }
-  alert(result);
-}
+//     result = result + ` ${a}`;
+//     c = a + b;
+//     a = b;
+//     b = c;
+//   }
+//   alert(result);
+// }
 
 // пробел
 
@@ -44,7 +65,7 @@ function fib(n) {
 //   return alert(0 + " " + 1 + result);
 // }
 
-fib(4);
+// fib(4);
 
 // пробел
 
