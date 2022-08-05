@@ -1,4 +1,45 @@
 "use strict";
+
+let obj = {
+  name: "Maga",
+  age: 35,
+};
+
+let clone = {};
+
+for(let key in obj) {
+    
+}
+
+console.log(obj);
+console.log(clone);
+
+// пробел
+
+// Напишите функцию isEmpty(obj), которая возвращает true,
+// если у объекта нет свойств, иначе false.
+// Должно работать так:
+
+// let schedule = {
+//   name: "John",
+//   age: 25,
+// };
+
+// alert( isEmpty(schedule) ); // true
+
+// schedule["8:30"] = "get up";
+
+// alert(isEmpty(schedule)); // false
+
+// function isEmpty(obj) {
+//   for (let key in obj) {
+//     return false;
+//   }
+//   return true;
+// }
+
+// пробел
+
 // Создайте функцию, которая будет принимать в себя 2 аргумента, оба числа.
 // Первое число - это база, второе число - это сколько раз нужно будет повторить
 // это число в прогрессии. (Смотри пример ниже). Функция должна возвращать

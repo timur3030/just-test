@@ -1,4 +1,57 @@
-"use strict";
+// "use strict";
+
+// let arr = [345, 23, 1, 877, 22, 9, 76];
+// console.log(arr.sort(compareNum));
+// function compareNum(a, b) {
+//     return a - b;
+// }
+
+// пробел
+
+// const arr = [1, 2, 4, 8, 16];
+// arr.pop();
+// arr.push("yes");
+// console.log(arr);
+// for (let value of arr) {
+//   console.log(value);
+// }
+
+// // пробел
+
+// const obj = {
+//   name: "Ivan",
+//   age: 35,
+//   weight: 80,
+//   hobbies: {
+//     sport: "swimming",
+//     study: "english",
+//     newMethod: function () {
+//       console.log("TEST");
+//     },
+//   },
+// };
+
+// // const {sport, study} = obj.hobbies;
+// // console.log(sport);
+// // console.log(study);
+
+// // obj.hobbies.newMethod();
+// // console.log(Object.keys(obj).length);
+
+// let counter = 0;
+// for (const key in obj) {
+//   if (typeof obj[key] === "object") {
+//     for (const i in obj[key]) {
+//       console.log(`Свойство ${i} имеет значение ${obj[key][i]}`);
+//     }
+//   } else {
+//     console.log(`Свойство ${key} имеет значение ${obj[key]}`);
+//   }
+//   counter++
+// }
+// console.log(counter);
+
+// пробел
 
 // function first() {
 //     // Do something
@@ -40,7 +93,7 @@
 //     c,
 //     result = "";
 //   for (let i = 1; i <= n; i++) {
-    
+
 //     result = result + ` ${a}`;
 //     c = a + b;
 //     a = b;
